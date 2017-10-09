@@ -51,7 +51,7 @@ project(':react-native-video-processing').projectDir = new File(rootProject.proj
     - MobileCoreServices
 
     to your project's `Build Phases` ➜ `Link Binary With Libraries`.
-6. Import `RNVideoProcessing.h` into your `project_name-bridging-header.h`.
+6. Import `RNVideoProcessing.h` into your `[project-name]-bridging-header.h`. If you don't have a bridging header in your project, create one with the name `[project-name]-Bridging-Header.h`.
 7. Clean and Run your project.
 
 ## Usage
